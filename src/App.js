@@ -38,7 +38,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Users List - Final Exam</h1>
+        <h1>Randomly Generated Users List</h1>
         <div>
           <ul className="usersList">
           {this.state.users.map((user) =>
