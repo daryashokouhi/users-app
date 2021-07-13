@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  margin-top: 5%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.usersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.singleUser {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px #222 solid;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.userImage {
+  width: 300px;
+}
+
+.singleUserInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 1.5rem;
+}
+
+.deleteButton {
+  background: #fff;
+  color: rgb(145, 0, 0);
+  border: 1px rgb(145, 0, 0) solid;
+  padding: 10px;
+}
+
+.deleteButton:hover {
+  background: rgb(145, 0, 0);
+  color: #fff;
+}
+
+.genderIcon {
+  width: 30px;
+}
+
+.flagIcon {
+  width: 20px;
+  margin-right: 5px;
+}
